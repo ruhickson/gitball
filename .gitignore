@@ -1,5 +1,11 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# Ignore everything
+/*
+
+# But not these R scripts
+!setup_database.R
+!git_init.R
+!git_load.R
+!README.md
+
+# Allow .Renv for local config, but do not track it
 .Renv
