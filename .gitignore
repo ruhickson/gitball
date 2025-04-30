@@ -5,7 +5,33 @@
 !setup_database.R
 !git_init.R
 !git_load.R
+!api.R
 !README.md
 
 # Allow .Renv for local config, but do not track it
 .Renv
+.Rproj.user
+
+# React app
+!gitball-frontend
+gitball-frontend/node_modules
+gitball-frontend/.pnp
+gitball-frontend/.pnp.js
+gitball-frontend/coverage
+gitball-frontend/build
+gitball-frontend/.DS_Store
+gitball-frontend/.env
+gitball-frontend/.env.local
+gitball-frontend/.env.development.local
+gitball-frontend/.env.test.local
+gitball-frontend/.env.production.local
+gitball-frontend/npm-debug.log*
+gitball-frontend/yarn-debug.log*
+gitball-frontend/yarn-error.log*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
